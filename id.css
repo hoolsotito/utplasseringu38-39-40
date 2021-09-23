@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+/**header**/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: black;
+    padding: 0.5%;
+    border-bottom: tomato solid 3px;
+}
+header a {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.header-a {
+    color: white;
+    padding: 2%;
+    font-size: 200%;
+    transition: 0.3s;
+}
+
+.header-a:hover {
+    color: rgb(78, 78, 78);
+    background: white;
+}
+
+
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.U38 {
+    color: black;
+    transition: 0.3s;
+}
+.U38:hover {
+    color: white;
+    background: #000;
+}
+
+.U39 {
+    color: black;
+    transition: 0.3s;
+}
+.U39:hover {
+    color: white;
+    background: #000;
+}
+
+.U40 {
+    color: black;
+    transition: 0.3s;
+}
+.U40:hover {
+    color: white;
+    background: #000;
+}
+
+.PRES {
+    color: black;
+    transition: 0.3s;
+}
+.PRES:hover {
+    color: white;
+    background: #000;
+}
+
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 23%;
+}
+
+footer p {
+    text-align: center;
+    display: grid;
+    grid-column: 2/3;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
