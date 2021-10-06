@@ -6,13 +6,13 @@ body {
 
 
 
-.MAN04 , .TIRS05 {
+.MAN04 , .TIRS05 , .ONS06{
     display: grid;
     grid-template-columns:20% 40% 40% ;
     grid-template-rows: auto;
     grid-gap: 5px;
 }
-.DAG04 , .DAG05{
+.DAG04 , .DAG05 , .DAG06{
     display: grid;
     grid-column: 1/4;
     grid-row: 1/2;
@@ -20,7 +20,7 @@ body {
     margin-top: 5%;
 }
 
-.MAINMAN04 , .MAINTIRS05 {
+.MAINMAN04 , .MAINTIRS05 , .MAINONS06{
     margin: 20px;
 }
 table {
@@ -35,7 +35,7 @@ td {
     border: solid black 1px;
 }
 
-.FOOTERMAN04 ,.FOOTERTIRS05 {
+.FOOTERMAN04 ,.FOOTERTIRS05 ,.FOOTERONS06{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 20px;
