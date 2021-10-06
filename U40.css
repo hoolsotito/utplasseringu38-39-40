@@ -35,7 +35,7 @@ td {
     border: solid black 1px;
 }
 
-.FOOTERMAN04 ,.FOOTERTIRS05 ,.FOOTERONS06{
+.FOOTERMAN04 , .FOOTERTIRS05 , .FOOTERONS06{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 20px;
